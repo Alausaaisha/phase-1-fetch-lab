@@ -14,9 +14,11 @@ function renderBooks(books) {
     const p = document.createElement('p');
 
     h2.innerHTML = book.name;
+    // div.innerHTML = `<p>No of pages in this book: ${book.numberOfpages}</p>`
+    // p.innerHTML = `This book is available at: <a href ="${book.url}">Read now</a>`
     main.appendChild(h2);
-    main.appendChild(div);
-    div.appendChild(p);
+    // main.appendChild(div);
+    // div.appendChild(p);
   });
 }
 
